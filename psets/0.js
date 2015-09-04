@@ -21,4 +21,4 @@ var geolocal = "Miami";
 
 var jobtitle = "reporter";
 
-console.log("You will be a " + jobtitle + "in Miami, and married to " + partnerName + "with " + numChildren + "kids." );
+console.log("You will be a " + jobtitle + " in Miami, and married to " + partnerName + " with " + numChildren + " kids." );
