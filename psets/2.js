@@ -12,3 +12,12 @@ Ever wonder how much a "lifetime supply" of your favorite snack is? Wonder no mo
 */
 
 // write your solution here...
+
+var myage = 23;
+var maxage = 100;
+
+var daily_amount = 1;
+
+lifetimeSupply = (maxage - myage) * 365;
+
+console.log("You will need " + lifetimeSupply + " to last you until the ripe old age of " + maxage);
