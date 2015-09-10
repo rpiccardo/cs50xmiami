@@ -26,4 +26,55 @@ Write a function that will take one argument (a number) and perform the followin
   - Calculate what percentage that area is of the squared result (#3).
 */
 
+
 // write your solution here...
+  squareNumber(3);
+
+function squareNumber(number){
+  square = number * number;
+  console.log("The result of squaring the number " + number + " is " + square + ".");
+
+  return square;
+}
+
+  halfNumber(5)
+
+function halfNumber(number){
+  var half = number/2;
+  console.log("Half of " + number + " is " + half + ".");
+
+  return half;
+}
+
+
+percentOf(2,4);
+
+function percentOf(num1, num2){
+
+  var percent = num1/num2 * 100;
+
+  console.log(num1 + " is " + percent + "% of " + num2 + ".");
+
+  return percent;
+}
+
+areaOfCircle(5);
+function areaOfCircle(radius){
+
+  area = Math.PI * Math.pow(radius, 2);
+  result = Math.floor(area * 100)/100;
+  console.log("The area for a circle with a radius " + radius + " is " + result + ".");
+
+  return result;
+}
+
+massiveFunction(20);
+
+function massiveFunction(number){
+
+  half_num = halfNumber(number);
+  square = squareNumber(half_num);
+  area = areaOfCircle(square);
+  percent = percentOf(area, square);
+
+}
